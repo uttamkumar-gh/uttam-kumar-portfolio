@@ -145,7 +145,7 @@ const projects = [
     alt: "React Project Five",
     category: "Project",
     description: "This is a React.js learning project",
-    liveLink: "https://uttamkumar-gh.github.io/business-landingpage/",
+    liveLink: "https://uttamkumar-gh.github.io/uttam-kumar-portfolio",
 
     // 👇 Key Details
     platform: "React",
