@@ -1,0 +1,22 @@
+/* Archive project page */
+.projects{
+  max-width: 90vw;
+  margin: auto;
+  padding: 4rem 1rem;
+
+  h1{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+.project-grid{
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+
+  .project{
+    width: 100%;
+  }
+}

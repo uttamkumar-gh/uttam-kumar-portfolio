@@ -1,0 +1,45 @@
+.portfolio-footer{
+    position: relative;
+    background-color: #000000;
+    padding: 4rem 0 2rem;
+}
+.quick-link h3{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+}
+.quick-link ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 2rem;
+}
+.quick-link ul li{
+    list-style-type: none;
+}
+.quick-link ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.social a{
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+.copyright{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+}

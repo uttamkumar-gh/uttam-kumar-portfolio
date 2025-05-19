@@ -1,0 +1,148 @@
+/* Homepage */
+.banner {
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  h1{
+    font-size: 10rem;
+    text-align: center;
+  }
+}
+
+.banner-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+.lets-talk a{
+  font-size: 0.9rem;
+  line-height: 1;
+  font-weight: 300;
+  color: #000000;
+}
+.scroll-down{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  span{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .down-arrow{
+    font-size: 3rem;
+  }
+}
+.info{
+  position: relative;
+  border: 0.02rem solid #000000;
+  padding: 1rem;
+  max-width: 310px;
+
+  .info-title{
+    position: absolute;
+    width: fit-content;
+    top: -20px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #F5F5F5;
+    padding: 0.5rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.our-work{
+  overflow-x: hidden;
+  margin-top: 3rem;
+  border-top: 1px solid #cccccc;
+}
+.our-work .container{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-top: 5rem;
+  flex-wrap: wrap;
+
+  .text{
+    max-width: 320px;
+
+    .heading{
+      font-size: 2rem;
+      margin-bottom: 0.6rem;
+    }
+    p{
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+
+  .more-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.4rem;
+
+    a{
+      font-size: 1rem;
+      font-weight: 600;
+      color: #000000;
+      text-decoration: none;
+    }
+    .right-arrow{
+      font-size: 2rem;
+    }
+  }
+}
+.our-work .project-list{
+  display: flex;
+  flex-shrink: 0;
+  gap: 1.5rem;
+}
+
+.tech-skills{
+  margin-top: 5rem;
+  padding: 5rem 0;
+  border-top: 1px solid #cccccc;
+
+  .text{
+    max-width: 60vw;
+    margin: auto;
+    text-align: center;
+
+    .heading{
+      font-size: 2rem;
+      margin-bottom: 0.6rem;
+    }
+    p{
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+}
+
+.our-work .project-list .project{
+  width: 3vw;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .scroll-down{
+    display: none;
+  }
+  .banner h1{
+    font-size: 3rem;
+  }
+  .banner{
+    margin-top: 0;
+    padding-top: 0;
+  }
+}

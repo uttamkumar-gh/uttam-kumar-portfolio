@@ -1,0 +1,80 @@
+.portfolio-logo{
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 800;
+    text-align: center;
+    padding: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.navbar{
+    max-width: fit-content;
+    margin: auto;
+    background-color: #000000;
+    border-radius: 4rem;
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.4rem;
+
+        li{
+            list-style-type: none;
+        }
+
+        li a{
+            display: block;
+            text-decoration: none;
+            color: #FFFFFF;
+            padding: 0.6rem 2rem;
+            text-align: center;
+        }
+        .active{
+            background-color: #FFFFFF;
+            color: #000000;
+            border-radius: 4rem;
+        }
+    }
+}
+
+.mobile-menu{
+    display: none;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-menu {
+    display: block;
+    padding-right: 1.2rem;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar{
+    display: none;
+    position: fixed;
+    width: 320px;
+    max-width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    z-index: 1000;
+  }
+  .nav-items{
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .nav-items li{
+    width: 100%;
+  }
+  .nav-items li a{
+    text-align: right !important;
+  }
+  .nav-items li a.active{
+    border-radius: 0;
+  }
+}
